@@ -62,7 +62,7 @@ export const createTask = async(req, res) => {
 }
 
 export const updateTask = async(req, res) => {
-    if(req.body && req.params.id){
+    if(req.body && req.params.id) {
         try {
             const updatedTask = await Task.findByIdAndUpdate(req.params.id, req.body, {new: true});
             if(!updatedTask) return res.status(404).json({
@@ -83,8 +83,7 @@ export const updateTask = async(req, res) => {
             'errorStatus': true
         });
     };
-
-}
+};
 
 export const deleteTask = async(req, res) => {
     try {

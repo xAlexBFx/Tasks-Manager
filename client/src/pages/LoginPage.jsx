@@ -35,7 +35,7 @@ function LoginPage () {
                 <button type='submit' className='bg-indigo-500 px-3 py-2 rounded-md'>Login</button>
                 </form>
 
-                <p className='flex gap-x-2 justify-between'>Dont you have an account?{" "} <a href="/register" className='text-sky-500 '>Sign Up</a></p>
+                <p className='flex gap-x-2 justify-between'>Don`t you have an account?{" "} <a href="/register" className='text-sky-500 '>Sign Up</a></p>
             </div>
         </div>
     )

@@ -3,4 +3,4 @@ import {connectDB} from './db.js'
 
 connectDB();
 app.listen(8080)
-console.log(`>>> App on port ${8080}`)
+console.log(`>>> App at http://localhost:8080`)

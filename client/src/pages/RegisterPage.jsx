@@ -2,6 +2,7 @@ import {useForm} from 'react-hook-form';
 import { useAuth } from '../context/auth.context.jsx';
 import { useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
+
 function RegisterPage () {
     const { register, handleSubmit, formState: {errors} } = useForm();
     const { signup, isAuthenticated, errors : RegisterErrors } = useAuth();
